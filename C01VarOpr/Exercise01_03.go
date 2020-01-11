@@ -2,6 +2,7 @@ package main
 
 import (
 	"fmt"
+	"os"
 	"time"
 )
 
@@ -11,5 +12,7 @@ var (
 	startUpTime time.Time = time.Now()
 )
 func main() {
+	fmt.Println(os.Args[0])
+
 	fmt.Println(Debug, LogLevel, startUpTime)
 }

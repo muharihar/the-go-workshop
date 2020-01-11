@@ -1,10 +1,15 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"os"
+)
 
 var level = "pkg"
 
 func main() {
+	fmt.Println(os.Args[0])
+
 	fmt.Println("Main start : ", level)
 	// Create a shadow variable
 	level := 42

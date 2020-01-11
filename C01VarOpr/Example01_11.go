@@ -1,8 +1,13 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"os"
+)
 
 func main() {
+	fmt.Println(os.Args[0])
+
 	{
 		level01_11 := "Nest 1"
 		fmt.Println("Block end : ", level01_11)

@@ -1,8 +1,13 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"os"
+)
 
 func main() {
+	fmt.Println(os.Args[0])
+
 	//count := 5
 	count := 7
 	var message string

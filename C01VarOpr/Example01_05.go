@@ -2,10 +2,13 @@ package main
 
 import (
 	"fmt"
+	"os"
 	"time"
 )
 
 func main() {
+	fmt.Println(os.Args[0])
+
 	// Type only
 	var start, middle, end float32
 	fmt.Println(start, middle, end)

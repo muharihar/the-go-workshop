@@ -1,10 +1,15 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"os"
+)
 
 var defaultOffset = 10
 
 func main() {
+	fmt.Println(os.Args[0])
+
 	offset := defaultOffset
 	fmt.Println(offset)
 

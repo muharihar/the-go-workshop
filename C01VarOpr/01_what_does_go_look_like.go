@@ -6,6 +6,7 @@ import (
 	"fmt"
 	"log"
 	"math/rand"
+	"os"
 	"strconv"
 	"time"
 )
@@ -22,6 +23,8 @@ var helloList = []string{
 }
 
 func main() {
+	fmt.Println(os.Args[0])
+
 	// Seed random number generator using the current time
 	rand.Seed(time.Now().UnixNano())
 	// Generate a random number in the range of out list
