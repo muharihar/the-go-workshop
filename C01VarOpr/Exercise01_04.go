@@ -14,7 +14,7 @@ var (
 
 func main() {
 	fmt.Println(os.Args[0])
-	
+
 	fmt.Println(Debug01_04, LogLevel01_04, startUpTime01_04)
 }
 
