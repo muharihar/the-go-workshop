@@ -14,7 +14,7 @@ func main() {
 	fmt.Println(start, middle, end)
 
 	// Initial value midex type
-	var name, left, right, top, bottom = "one", 1, 1.5, 2, 2.5;
+	var name, left, right, top, bottom = "one", 1, 1.5, 2, 2.5
 	fmt.Println(name, left, right, top, bottom)
 
 	// works with functions also

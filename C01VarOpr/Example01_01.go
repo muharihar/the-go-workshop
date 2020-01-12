@@ -5,10 +5,10 @@ import (
 	"os"
 )
 
-func main(){
+func main() {
 	fmt.Println(os.Args[0])
 
-	helloList := []string {
+	helloList := []string{
 		"Hello, world",
 		"Καλημέρα κόσμε",
 		"こんにちは世界",

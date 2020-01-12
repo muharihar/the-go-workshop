@@ -6,7 +6,7 @@ import (
 	"time"
 )
 
-func main(){
+func main() {
 	fmt.Println(os.Args[0])
 
 	var count int

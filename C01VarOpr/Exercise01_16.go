@@ -6,18 +6,18 @@ import (
 )
 
 const (
-	GlobalLimit = 100
+	GlobalLimit      = 100
 	MaxCacheSize int = 10 * GlobalLimit
 )
 
 const (
 	CacheKeyBook = "book_"
-	CacheKeyCD = "cd_"
+	CacheKeyCD   = "cd_"
 )
 
 var cache map[string]string
 
-func main(){
+func main() {
 	fmt.Println(os.Args[0])
 
 	cache = make(map[string]string)

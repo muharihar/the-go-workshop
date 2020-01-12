@@ -6,7 +6,7 @@ import (
 	"time"
 )
 
-func getConfig01_06()(bool, string, time.Time){
+func getConfig01_06() (bool, string, time.Time) {
 	return false, "info", time.Now()
 }
 

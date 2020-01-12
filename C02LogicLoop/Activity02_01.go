@@ -6,7 +6,7 @@ import (
 	"strconv"
 )
 
-func main(){
+func main() {
 	fmt.Println(os.Args[0])
 
 	for i := 1; i <= 100; i++ {
