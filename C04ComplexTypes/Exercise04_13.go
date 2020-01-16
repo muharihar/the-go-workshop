@@ -1,6 +1,9 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"os"
+)
 
 func getUsers() map[string]string {
 	users := map[string]string{
@@ -13,5 +16,7 @@ func getUsers() map[string]string {
 }
 
 func main() {
+	fmt.Println(os.Args[0])
+
 	fmt.Println("Users:", getUsers())
 }
