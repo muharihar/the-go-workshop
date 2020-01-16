@@ -11,7 +11,7 @@ func main() {
 	fmt.Println(message04_05())
 }
 
-func message04_05() interface{} {
+func message04_05() string {
 	arr := [4]string{"ready", "Get", "Go", "to"}
 	arr[1] = "It's"
 	arr[0] = "time"
