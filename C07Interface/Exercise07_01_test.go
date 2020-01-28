@@ -28,3 +28,26 @@ func TestPerson07_01_String(t *testing.T) {
 		})
 	}
 }
+
+func TestPerson07_01_Speak(t *testing.T) {
+	testCases := []struct {
+		name   string
+		wanted string
+	}{
+		{
+			name:   "Cayden Smash",
+			wanted: "Hi, my name is: Cayden Smash",
+		},
+	}
+
+	t.Log("Detailed TestCases:")
+	for _, tc := range testCases {
+		t.Run(tc.name, func(t *testing.T) {
+			p := Person07_01{name: tc.name}
+			got := p.Speak()
+			if got != tc.wanted {
+				t.Errorf("Got   : %v\n Wanted: %v\n", got, tc.wanted)
+			}
+		})
+	}
+}
